@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &673714123198717841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8116725939827113052}
+  - component: {fileID: 3139079314265543221}
+  m_Layer: 6
+  m_Name: Left Hand Presence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8116725939827113052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673714123198717841}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3139079314265543221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673714123198717841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95cc1c62aa6a2646ad12cdbc8066fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showController: 0
+  controllerCharacteristics: 320
+  controllerPrefabs:
+  - {fileID: 7634514334346526944, guid: b4c31baebcdd5e349a7c7bf9e3318b9d, type: 3}
+  - {fileID: 4245457492171364763, guid: 568083cd99a483b47827be46679b8cb5, type: 3}
+  - {fileID: 4024951872544157354, guid: ee5ad53c896c8d4458458a0550466d63, type: 3}
+  - {fileID: 7523567926693483842, guid: 602593b3a5c63c942b04669602910d5e, type: 3}
+  - {fileID: 5191550869875014123, guid: cfe923e2f1a6ed14e94dc0317de41a5e, type: 3}
+  - {fileID: 4818293155451206850, guid: 95c555ebb7270de4ea1a05e7d925fe0f, type: 3}
+  - {fileID: 357722411443781339, guid: 67ed3e982cb51bd42b3b4934fb378767, type: 3}
+  - {fileID: 5928091942230486030, guid: ebf3a6f0c9f4612478c119d47ef6a70f, type: 3}
+  - {fileID: 6654152787936889342, guid: 6a6449d632c1995469a6a5923b2103a3, type: 3}
+  handModelPrefab: {fileID: 4457106310433850852, guid: a222da3565732e14fbe9050f1fccdc22, type: 3}
